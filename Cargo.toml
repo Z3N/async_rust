@@ -1,0 +1,3 @@
+[workspace]
+members = ["ch20/aa-os-threads"]
+resolver = "2"
