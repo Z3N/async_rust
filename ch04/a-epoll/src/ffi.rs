@@ -2,7 +2,7 @@ pub const EPOLL_CTL_ADD: i32 = 1;
 pub const EPOLLIN: i32 = 0x1;
 pub const EPOLLET: i32 = 1 << 31;
 
-#[link(name = "C")]
+#[link(name = "c")]
 extern "C" {
     pub fn epoll_create(size: i32) -> i32;
     pub fn close(fd: i32) -> i32;
@@ -14,7 +14,7 @@ extern "C" {
 #[repr(C, packed)]
 pub struct Event {
     pub(crate) events: u32,
-    pub(crate) epoll_data: usize
+    pub(crate) epoll_data: usize,
 }
 
 impl Event {

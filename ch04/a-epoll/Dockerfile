@@ -1,4 +1,4 @@
-ARG RUST_VERSION=1.76
+ARG RUST_VERSION=1.76.0
 ARG APP_NAME=a-epoll
 
 FROM rust:${RUST_VERSION}-bookworm as cheff
