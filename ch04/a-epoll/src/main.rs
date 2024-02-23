@@ -31,8 +31,8 @@ fn handle_events(events: &[Event], streams: &mut [TcpStream]) -> Result<usize> {
                     break;
                 }
                 Ok(n) => {
-                    let txt = String::from_utf8_lossy(&data[..n]);
-
+                    let txt = String::from_utf8_lossy(&data[..n]).replace("\r\n", "\n");
+                    let txt = txt.trim_end();
                     println!("RECEIVED: {:?}", event);
                     println!("{txt}\n------\n");
                 }
