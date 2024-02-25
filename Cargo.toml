@@ -1,3 +1,3 @@
 [workspace]
-members = ["delayserver","ch02/aa-os-threads", "ch04/a-epoll"]
+members = ["delayserver","ch02/aa-os-threads", "ch04/a-epoll", "ch5/a-stack-swap"]
 resolver = "2"

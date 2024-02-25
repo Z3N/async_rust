@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ch02/aa-os-threads/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch04/a-epoll/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/delayserver/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch5/a-stack-swap/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
