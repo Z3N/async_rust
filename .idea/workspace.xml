@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52574150-d11e-4959-85dd-0708b963cad7" name="Changes" comment="a-coroutine added, custom implementation of Rust Futures, Waker.">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/a-rust-futures/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/a-rust-futures/src/http.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/a-rust-futures/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/a-rust-futures/src/runtime.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/a-rust-futures/src/runtime/executor.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/a-rust-futures/src/runtime/reactor.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/async_rust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/async_rust.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="43761" />
+    <option name="naggedAbout" value="1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="aio2evzp" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2cVPBPFCkkT3ll8jO2uw1GQXKBh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Run a-coroutine.executor": "Run",
+    "Cargo.Run a-rust-futures.executor": "Run",
+    "Cargo.Run a-stack-swap.executor": "Run",
+    "Cargo.Run aa-os-threads.executor": "Run",
+    "Cargo.Run c-fibers (1).executor": "Run",
+    "Cargo.Run c-fibers (2).executor": "Run",
+    "Cargo.Run c-fibers.executor": "Run",
+    "Cargo.Run delayserver.executor": "Run",
+    "Docker.a-epoll/Dockerfile (1).executor": "Run",
+    "Docker.a-epoll/Dockerfile.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Z3N/CLionProjects/async_rust",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Z3N\CLionProjects\async_rust\ch10\a-rust-futures\src" />
+      <recent name="C:\Users\Z3N\CLionProjects\async_rust\ch03\a-epoll" />
+    </key>
+  </component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="runOnTheFly" value="true" />
+    <option name="tool" value="Clippy" />
+  </component>
+  <component name="RunManager" selected="Cargo.Run a-rust-futures">
+    <configuration name="Run a-coroutine" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package a-coroutine --bin a-coroutine" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run a-rust-futures" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package a-rust-futures --bin a-rust-futures" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run a-stack-swap" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package a-stack-swap --bin a-stack-swap" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run c-fibers" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package c-fibers --bin c-fibers" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="NIGHTLY" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run delayserver" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package delayserver --bin delayserver" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cargo.Run a-coroutine" />
+      <item itemvalue="Cargo.Run a-rust-futures" />
+      <item itemvalue="Cargo.Run delayserver" />
+      <item itemvalue="Cargo.Run a-stack-swap" />
+      <item itemvalue="Cargo.Run c-fibers" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run a-rust-futures" />
+        <item itemvalue="Cargo.Run a-coroutine" />
+        <item itemvalue="Cargo.Run delayserver" />
+        <item itemvalue="Cargo.Run c-fibers" />
+        <item itemvalue="Cargo.Run a-stack-swap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52574150-d11e-4959-85dd-0708b963cad7" name="Changes" comment="" />
+      <created>1708193636710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708193636710</updated>
+      <workItem from="1708193637821" duration="2175000" />
+      <workItem from="1708196719905" duration="47000" />
+      <workItem from="1708196786182" duration="78000" />
+      <workItem from="1708197159088" duration="14576000" />
+      <workItem from="1708288254579" duration="3674000" />
+      <workItem from="1708334502609" duration="3218000" />
+      <workItem from="1708455136965" duration="9719000" />
+      <workItem from="1708710633816" duration="109000" />
+      <workItem from="1708710774649" duration="4778000" />
+      <workItem from="1708846084322" duration="8487000" />
+      <workItem from="1708932258402" duration="867000" />
+      <workItem from="1709455072813" duration="583000" />
+      <workItem from="1709455665278" duration="2293000" />
+      <workItem from="1709882511942" duration="8134000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1708196411203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708196411203</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1708197399703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708197399703</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ch03 a-epoll now can run in docker.">
+      <option name="closed" value="true" />
+      <created>1708335079284</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708335079284</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ch03 a-epoll example written.">
+      <option name="closed" value="true" />
+      <created>1708456110474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708456110474</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added delayserver.">
+      <option name="closed" value="true" />
+      <created>1708547431173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708547431173</updated>
+    </task>
+    <task id="LOCAL-00006" summary="a-epoll, conversion windows style newline to linux for convenient display.">
+      <option name="closed" value="true" />
+      <created>1708714093242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708714093242</updated>
+    </task>
+    <task id="LOCAL-00007" summary="a-stack-swap added, example of EIP manipulation and stack replacement.">
+      <option name="closed" value="true" />
+      <created>1708851934223</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708851934223</updated>
+    </task>
+    <task id="LOCAL-00008" summary="a-coroutine added, custom implementation of Rust Futures, Waker.">
+      <option name="closed" value="true" />
+      <created>1709975482877</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709975482877</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ch20/aa-os-threads" />
+    </ignored-roots>
+    <MESSAGE value="init" />
+    <MESSAGE value="ch03 a-epoll now can run in docker." />
+    <MESSAGE value="ch03 a-epoll example written." />
+    <MESSAGE value="Added delayserver." />
+    <MESSAGE value="a-epoll, conversion windows style newline to linux for convenient display." />
+    <MESSAGE value="a-stack-swap added, example of EIP manipulation and stack replacement." />
+    <MESSAGE value="a-coroutine added, custom implementation of Rust Futures, Waker." />
+    <option name="LAST_COMMIT_MESSAGE" value="a-coroutine added, custom implementation of Rust Futures, Waker." />
+  </component>
+</project>

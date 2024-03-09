@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/delayserver/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch5/a-stack-swap/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch5/c-fibers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10/a-rust-futures/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch7/a-coroutine/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
