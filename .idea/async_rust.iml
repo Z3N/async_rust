@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/ch04/a-epoll/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/delayserver/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch5/a-stack-swap/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch5/c-fibers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch7/a-coroutine/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

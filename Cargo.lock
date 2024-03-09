@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "a-coroutine"
+version = "0.1.0"
+dependencies = [
+ "mio",
+]
+
+[[package]]
 name = "a-epoll"
 version = "0.1.0"
 
@@ -328,6 +335,10 @@ checksum = "74d80203ea6b29df88012294f62733de21cfeab47f17b41af3a38bc30a03ee72"
 dependencies = [
  "bytes",
 ]
+
+[[package]]
+name = "c-fibers"
+version = "0.1.0"
 
 [[package]]
 name = "cc"
@@ -667,9 +678,9 @@ dependencies = [
 
 [[package]]
 name = "mio"
-version = "0.8.10"
+version = "0.8.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8f3d0b296e374a4e6f3c7b0a1f5a51d748a0d34c85e7dc48fc3fa9a87657fe09"
+checksum = "a4a650543ca06a924e8b371db273b2756685faae30f8487da1b56505a8f78b0c"
 dependencies = [
  "libc",
  "log",
